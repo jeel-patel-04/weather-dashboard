@@ -28,7 +28,7 @@ const WeatherForecast = ({ data }) => {
   }, {});
 
   // Get next 5 days
-  const nextDays = Object.values(dailyForecasts).slice(1, 6);
+  const nextDays = Object.values(dailyForecasts).slice(0, 6);
 
   const formatTemp = (temp) => `${Math.round(temp)}°`;
 
