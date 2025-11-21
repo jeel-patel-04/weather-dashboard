@@ -87,7 +87,7 @@ const WeatherDetails = ({ data, air, forecast }) => {
 
     // ⭐ Rain POP
     {
-      title: "Rain Probability",
+      title: "Rain/Snow Probability",
       value: `${rainPop}%`,
       icon: CloudRain,
       color: "text-blue-600",
